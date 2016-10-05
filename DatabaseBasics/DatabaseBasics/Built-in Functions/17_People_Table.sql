@@ -1,0 +1,8 @@
+SELECT	name,
+		TIMESTAMPDIFF(YEAR, '2000-12-07 00:00:00', NOW()) AS age_in_years,
+		TIMESTAMPDIFF(MONTH, '2000-12-07 00:00:00', NOW()) AS age_in_months,
+		TIMESTAMPDIFF(DAY, '2000-12-07 00:00:00', NOW()) AS age_in_days,
+		TIMESTAMPDIFF(MINUTE, '2000-12-07 00:00:00', NOW()) AS age_in_minutes
+FROM people
+		
+		
